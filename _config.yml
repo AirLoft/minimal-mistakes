@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "zh"
+title                    : "UTADA"
+title_separator          : "|"
+name                     : "UTADA"
+description              : "University of Toronto Application Development Association | 多伦多大学应用开发社"
+url                      : "http://v3.uoftada.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "AirLoft/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "UTADA"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : ""
+  location         : "Toronto, ON"
   email            :
   uri              :
   bitbucket        :
@@ -245,3 +245,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  project:
+    output: true
+    permalink: /:collection/:path/
