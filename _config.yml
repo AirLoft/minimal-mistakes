@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "zh"
 title                    : "UTADA"
-title_separator          : "|"
+title_separator          : "-"
 name                     : "UTADA"
 description              : "University of Toronto Application Development Association | 多伦多大学应用开发社"
 url                      : "http://v3.uoftada.com"
