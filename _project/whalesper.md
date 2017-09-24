@@ -3,7 +3,7 @@ layout: single
 title: 鲸语
 permalink: /project/whalesper
 project: whalesper
-excerpt: "doo. is a online platform for you to manage your time, together with your friends."
+excerpt: "多伦多本地的资讯应用"
 
 ---
 
